@@ -85,7 +85,7 @@ header {
   text-decoration: none;
   color: white;
 }
-.watch-live-btn {
+.watch-btn {
   width: 168px;
   height: 44px;
   background-color: #e02c6d;
@@ -96,10 +96,10 @@ header {
   margin-top: 27px;
   transition: transform 250ms;
 }
-.watch-live-btn a {
+.watch-btn a {
   margin-right: 8px;
 }
-.watch-live-btn:hover {
+.watch-btn:hover {
   transform: translateY(-10px);
 }
 .first-half h1 {
@@ -153,25 +153,25 @@ header {
   align-items: center;
   max-width: 1160px;
 }
-.all-highlights {
+.all-highlights-part {
   width: 470px;
   height: 310px;
   margin-right: 66px;
 }
-.all-highlights h1 {
+.all-highlights-part h1 {
   font-size: 48px;
   font-weight: 700;
 }
-.all-highlights p {
+.all-highlights-part p {
   text-align: justify;
   line-height: 28px;
 }
-.all-highlights .watch-live-btn {
+.all-highlights-part .watch-btn {
   margin-left: 0;
   margin-top: 24px;
   color: white;
 }
-.all-highlights .watch-live-btn a {
+.all-highlights-part .watch-btn a {
   text-decoration: none;
   color: white;
 }
@@ -234,7 +234,7 @@ header {
   .highlights {
     flex-direction: column;
   }
-  .all-highlights {
+  .all-highlights-part {
     flex-direction: column;
     width: 90vw;
     height: auto;
@@ -247,7 +247,7 @@ header {
   .copa-players {
     margin-bottom: 60px;
   }
-  .watch-live-btn {
+  .watch-btn {
     margin-bottom: 30px;
   }
   .footer-logo img {
@@ -295,7 +295,7 @@ header {
     width: 50vw;
     height: auto;
   }
-  .all-highlights {
+  .all-highlights-part {
     flex-direction: column;
     width: 50vw;
     height: auto;
