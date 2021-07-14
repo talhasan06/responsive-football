@@ -38,6 +38,9 @@ header {
   height: 45px;
   transition: transform 150ms;
 }
+.navbar-login .fa-sign-in-alt {
+  color: white;
+}
 .navbar-login:hover {
   transform: translateX(-10px);
 }
@@ -121,8 +124,8 @@ header {
   margin-bottom: 150px;
 }
 .player {
-  width: 300px;
-  height: 440px;
+  width: 330px;
+  height: 460px;
   padding: 15px 15px 33px 15px;
   background-color: #ffffff;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -176,7 +179,7 @@ header {
   width: 568px;
   height: 428px;
 }
-/* --------footer------- */
+/* ---------------footer--------------------- */
 .main-footer {
   display: flex;
   flex-direction: column;
@@ -194,15 +197,34 @@ header {
   width: 485px;
 }
 .footer-icon {
+  display: flex;
   margin: 20px 0;
+}
+.footer-icon .icon {
+  width: 32px;
+  height: 32px;
+  background-color: rgb(209, 204, 204);
+  margin-right: 14px;
+  border-radius: 15px;
+}
+.footer-icon .icon p {
+  margin-top: 5px;
+  margin-left: 8px;
+  color: gray;
+  font-weight: 700;
+  font-size: 18px;
+}
+.footer-icon .icon .fa-youtube {
+  margin: 0;
+  padding-right: 2px;
 }
 .footer-icon img {
   height: 32px;
   width: 32px;
   margin-right: 14px;
 }
-/*--------- media query --------------*/
-@media (max-width: 689px) {
+/*--------- mobile responsive --------------*/
+@media only screen and (min-width: 320px) and (max-width: 680px) {
   .conmebol-section {
     width: 100%;
   }
@@ -255,5 +277,36 @@ header {
     width: 90vw;
     margin: auto;
     height: auto;
+  }
+}
+/* ----------------------tab responsive---------------- */
+@media only screen and (min-width: 681px) and (max-width: 1024px) {
+  .copa-players {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .conmebol-section {
+    width: 100%;
+  }
+  .first-half {
+    width: 50vw;
+    margin: 0 auto;
+  }
+  .banner-img img {
+    width: 50vw;
+    height: auto;
+  }
+  .all-highlights {
+    flex-direction: column;
+    width: 50vw;
+    height: auto;
+    margin: auto 10px auto 20px;
+  }
+  .match-img img {
+    width: 50vw;
+    height: auto;
+    margin: auto;
+  }
+  .first-half {
+    margin: auto auto auto 20px;
   }
 }
