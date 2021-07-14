@@ -108,7 +108,6 @@ header {
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 28px;
   grid-column-gap: 30px;
-  margin-bottom: 150px;
 }
 .player {
   width: 300px;
@@ -131,4 +130,63 @@ header {
   font-weight: 400;
   font-size: 16px;
   margin-top: 10px;
+}
+/* ----------------highlights ------------------*/
+
+.highlights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1160px;
+}
+.all-highlights {
+  width: 470px;
+  height: 310px;
+  margin-right: 66px;
+}
+.all-highlights h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.all-highlights p {
+  text-align: justify;
+  line-height: 28px;
+}
+.all-highlights .watch-live-btn {
+  margin-left: 0;
+  margin-top: 24px;
+  color: white;
+}
+.all-highlights .watch-live-btn a {
+  text-decoration: none;
+  color: white;
+}
+.match-img img {
+  width: 568px;
+  height: 428px;
+}
+/* --------footer------- */
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+.main-footer p {
+  font-size: 18px;
+  line-height: 24px;
+}
+.footer-logo img {
+  height: 110px;
+  width: 485px;
+}
+.footer-icon {
+  margin: 20px 0;
+}
+.footer-icon img {
+  height: 32px;
+  width: 32px;
+  margin-right: 14px;
 }
